@@ -1,7 +1,7 @@
 # 000_getting_started.yaml
 
 jobs:
-- job: 000_getting_started
+- job: getting_started
   pool:
     vmImage: 'ubuntu-latest'
   steps:
