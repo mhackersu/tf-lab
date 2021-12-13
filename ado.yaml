@@ -7,4 +7,4 @@ variables:
 - group: ENV
 
 jobs:
-- template: ado/build.yaml
+- template: ado/000_getting_started.yaml
