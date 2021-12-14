@@ -2,6 +2,11 @@ variable "instance_type" {
 	type = string
 }
 
+variable "project_name" {
+  type        = string
+  default     = "tf-labs"
+}
+
 variable "aws_access_key" {
   type        = string
   default     = "aws-access-key"

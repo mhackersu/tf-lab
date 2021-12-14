@@ -3,8 +3,12 @@ resource "aws_instance" "my_server" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "MyServer-${local.project_name}"
+    Name = "${var.project_name}_${local.project_name}"
   }
+}
+
+locals {
+  project_name = "frozen-banana"
 }
 
 /*

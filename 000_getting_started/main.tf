@@ -36,6 +36,3 @@ provider "aws" {
 #   }
 # }
 
-# locals {
-#   project_name = "FrozenBanana"
-# }
