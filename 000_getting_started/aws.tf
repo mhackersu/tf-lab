@@ -1,15 +1,47 @@
-resource "aws_instance" "my_server" {
-  ami           = "ami-087c17d1fe0178315"
-  instance_type = var.instance_type
-
-  tags = {
-    Name = "${var.project_name}_${local.project_name}"
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+  backend "s3" {
+    bucket = "bananaforscale-aws-tf-state"
+    key    = "tf-labs"
+    region = "us-east-1"
   }
 }
 
-locals {
-  project_name = "frozen-banana"
+provider "aws" {
+  region     = "us-east-1"
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }
+
+variable "aws_access_key" {
+  type        = string
+  default     = "aws-access-key"
+  description = "AWS IAM Access Key"
+}
+
+variable "aws_secret_key" {
+  type        = string
+  default     = "aws-secret-key"
+  description = "AWS IAM Secret Key"
+}
+
+# resource "aws_instance" "banana-app-server" {
+#   ami           = "ami-087c17d1fe0178315"
+#   instance_type = var.instance_type
+
+#   tags = {
+#     Name = "${var.project_name}_${local.project_name}"
+#   }
+# }
+
+# locals {
+#   project_name = "frozen-banana"
+# }
 
 /*
 module "vpc" {
