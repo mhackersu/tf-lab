@@ -6,8 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = var.backend_s3_bucket
-    key    = var.state_file_name
+    bucket = var.backend_s3
+    # Repo Name
+    key    = "tf-labs"
     region = "us-east-1"
   }
 }
@@ -18,12 +19,7 @@ provider "aws" {
   secret_key = var.aws_secret_key
 }
 
-variable "state_file_name" {
-  type = string
-  default = "tf-labs"
-}
-
-variable "backend_s3_bucket" {
+variable "backend_s3" {
   type    = string
   default = "bananaforscale-aws-tf-state"
 }
