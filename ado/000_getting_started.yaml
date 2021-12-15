@@ -13,8 +13,10 @@ jobs:
   - bash: |
       ls -al
       pwd
-      touch ~/.aws/credentials
-      cat > ~/.aws/credentials << EOF
+      mkdir ~/.aws
+      cd ~/.aws
+      touch credentials
+      cat > credentials << EOF
       aws_access_key_id=$(TF-SC-KEY)
       aws_secret_access_key=$(TF-SC-SECRET)
       region=us-east-1
