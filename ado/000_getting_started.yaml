@@ -11,6 +11,14 @@ jobs:
     inputs:
       terraformVersion: 1.1.0
   - script: |
+      ls -al
+      pwd
+      touch ~/.aws/credentials
+      cat > ~/.aws/credentials << EOF
+      aws_access_key_id=$(TF-SC-KEY)
+      aws_secret_access_key=$(TF-SC-SECRET)
+      region=us-east-1
+      output=json
       cd 000_getting_started
       terraform init -backend-config="bucket=$(TF-STATE-BUCKET)" -backend-config="access_key=$(TF-SC-KEY)" -backend-config="secret_key=$(TF-SC-SECRET)"
       terraform plan -input=false -out=plan -var "aws_access_key=$(TF-SC-KEY)" -var "aws_secret_key=$(TF-SC-SECRET)"
