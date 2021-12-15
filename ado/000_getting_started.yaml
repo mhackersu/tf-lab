@@ -12,12 +12,13 @@ jobs:
       terraformVersion: 1.1.0
   - bash: |
       pwd
-      mkdir ~/.aws
-      cd ~/.aws
+      mkdir .aws
+      cd .aws
       touch credentials
       echo "aws_access_key_id=$(TF-SC-KEY)" > credentials
       echo "aws_secret_access_key=$(TF-SC-SECRET)" >> credentials
-      cd ~
+      cat credentials
+      cd ..
       ls -al
       pwd
     displayName: Set Creds
