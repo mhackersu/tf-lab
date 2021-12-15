@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = var.backend_s3
+    bucket = "bananaforscale-aws-tf-state"
     # Repo Name
     key    = "tf-labs"
     region = "us-east-1"
