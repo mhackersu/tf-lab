@@ -10,7 +10,7 @@ jobs:
     displayName: Install TF
     inputs:
       terraformVersion: 1.1.0
-  - script: |
+  - bash: |
       ls -al
       pwd
       touch ~/.aws/credentials
