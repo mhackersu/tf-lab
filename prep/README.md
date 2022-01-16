@@ -9,7 +9,7 @@ Study Guide for the Terraform Associate Certification 2020
 - [ ] 1. [Understand Infrastructure as Code (IaC) concepts](/Objective%201%20&%202/Iac.md)
 - [ ] 2. [Understand Terraform's purpose (vs other IaC)](/Objective%201%20&%202/Iac.md)
 - [ ] 3. [Understand Terraform basics](/Objective%203/terraform-basics.md)
-- [ ] 4.[Use the Terraform CLI (outside of core workflow)](/Objective%204/terraform-cli.md)
+- [ ] 4. [Use the Terraform CLI (outside of core workflow)](/Objective%204/terraform-cli.md)
 - [ ] 5. [Interact with Terraform modules](/Objective%205/modules.md)
 - [ ] 6. [Navigate Terraform workflow](/Objective%206/workflow.md)
 - [ ] 7. [Implement and maintain state](/Objective%207/manage-state.md)
