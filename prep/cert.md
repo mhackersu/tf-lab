@@ -41,7 +41,7 @@
 - First Attempt - 100%
 - Second Attempt - \_\_\_\_
 
-#### #2 IaC Purpose [x]
+#### #2 Terraform Purpose [x]
 
 - First Attempt - 100%
 - Second Attempt - \_\_\_\_
