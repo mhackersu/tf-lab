@@ -14,10 +14,10 @@ Terraform is a tool that allows you to define infrastructure in human and machin
 
 #### Learning about IaC Resources
 
-[ ] [Infrastructure as Code introduction video](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
-[ ] [Infrastructure as Code in a Private or Public Cloud blog post]()
-[ ] [Introduction to IaC documentation]()
-[ ] [Terraform Use Cases documentation]()
+- [ ] [Infrastructure as Code introduction video](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
+- [ ] [Infrastructure as Code in a Private or Public Cloud blog post]()
+- [ ] [Introduction to IaC documentation]()
+- [ ] [Terraform Use Cases documentation]()
 
 ### Manage Infrastructure
 - [❌] 3. [Terraform Basics](/Objective%203/terraform-basics.md)
