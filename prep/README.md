@@ -7,17 +7,17 @@ Study Guide for the Terraform Associate Certification 2022
 ## Objectives
 
 ### Learn about Iac
-- [x] 1. [Infrastructure as Code (IaC) Concepts](/Objective%201%20&%202/Iac.md)
-- [x] 2. [Terraform Purpose (vs other IaC)](/Objective%201%20&%202/Iac.md)
+- [x] 1. [Infrastructure as Code (IaC) Concepts](01-02-concepts-purpose/Iac.md)
+- [x] 2. [Terraform Purpose (vs other IaC)](01-02-concepts-purpose/Iac.md)
 
 Terraform is a tool that allows you to define infrastructure in human and machine-readable code. Review the following resources to start learning about the advantages of Infrastructure as Code (IaC), and the advantages of Terraform specifically.
 
 #### Learning about IaC Resources
 
-- [ ] [Infrastructure as Code introduction video](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
-- [ ] [Infrastructure as Code in a Private or Public Cloud blog post]()
-- [ ] [Introduction to IaC documentation]()
-- [ ] [Terraform Use Cases documentation]()
+- [x] [Infrastructure as Code introduction video](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
+- [x] [Infrastructure as Code in a Private or Public Cloud blog post]()
+- [x] [Introduction to IaC documentation]()
+- [x] [Terraform Use Cases documentation]()
 
 ### Manage Infrastructure
 - [-] 3. [Terraform Basics](/Objective%203/terraform-basics.md)
