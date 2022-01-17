@@ -100,7 +100,7 @@ At a high level, Terraform allows operators to use HCL to author files containin
   - Operator Confidence: `terraform apply` allows for review before changes are applied.
 </details>
 
-### Manage Infrastructure
+### Managing Infrastructure Basics
 - [-] 3. [Terraform Basics](/Objective%203/terraform-basics.md)
 
 Follow along with the "Get Started" tutorials to create, modify, and destroy your first infrastructure using Terraform, and to learn about some of Terraform's language features.
@@ -117,7 +117,7 @@ Follow along with the "Get Started" tutorials to create, modify, and destroy you
 - [ ] [Lock and Upgrade Provider Versions Learn tutorial](https://learn.hashicorp.com/tutorials/terraform/provider-versioning)
 - [ ] [Perform CRUD Operations with Providers Learn tutorial](https://learn.hashicorp.com/tutorials/terraform/provider-use)
 
-## Objective 3: Understand Terraform basics
+## Objective 3: Understand Terraform Basics
 
 
 <details><summary>  Handle Terraform and provider installation and versioning</summary>
@@ -262,16 +262,6 @@ Follow along with the "Get Started" tutorials to create, modify, and destroy you
 
 
 </details>
-
--------------------------------
-
-[⏮️](/Objective%201%20&%202/Iac.md) Objective 1 & 2 
- &nbsp;
- ||
- &nbsp;
-Objective 4 [⏩](/Objective%204/terraform-cli.md)
-
-[🔙](/README.md) README
 
 
 
@@ -440,15 +430,6 @@ TF_LOG_PATH #Persist logged output
 
 </details>
 
--------------------------------
-
-[⏮️](/Objective%203/terraform-basics.md) Objective 3 
- &nbsp;
- ||
- &nbsp;
-Objective 5 [⏩](/Objective%205/modules.md)
-
-[🔙](/README.md) README
 
 #### Subcommands Resources
 
@@ -612,16 +593,6 @@ Modules help you organize and re-use Terraform configuration. Follow the Modules
 </details>
 
 
--------------------------------
-
-[⏮️](/Objective%204/terraform-cli.md) Objective 4
- &nbsp;
- ||
- &nbsp;
-Objective 6 [⏩](/Objective%206/workflow.md)
-
-[🔙](/README.md) README
-
 ### Master Workflow
 - [-] 6. [Terraform Workflow](/Objective%206/workflow.md)
 
@@ -753,16 +724,6 @@ For a reference of all commands checkout out this file on [Terraform CLI](https:
 
 </details>
 
-
--------------------------------
-
-[⏮️](/Objective%205/modules.md) Objective 5 
- &nbsp;
- ||
- &nbsp;
-Objective 7 [⏩](/Objective%207/manage-state.md)
-
-[🔙](/README.md) README
 
 ### Manage State
 - [-] 7. [Implement, Maintain, and Manage State](/Objective%207/manage-state.md)
@@ -918,16 +879,6 @@ Partial Configuration
 </p>
 
 </details>
-
--------------------------------
-
-[⏮️](/Objective%206/workflow.md) Objective 6 
- &nbsp;
- ||
- &nbsp;
-Objective 8 [⏩](/Objective%208/hcl-features.md)
-
-[🔙](/README.md) README
 
 
 ### Read and Write Configurations
@@ -1116,16 +1067,6 @@ Dynamic Blocks
 
 </details>
 
--------------------------------
-
-[⏮️](/Objective%207/manage-state.md) Objective 7 
- &nbsp;
- ||
- &nbsp;
-Objective 9 [⏩](/Objective%209/cloud-and-enterprise.md)
-
-[🔙](/README.md) README
-
 ### Understand Terraform Cloud and Enterprise
 - [x] 9. [Terraform Cloud and Enterprise](/Objective%209/cloud-and-enterprise.md)
 
@@ -1208,12 +1149,6 @@ The Terraform CLI focuses on solving the technical challenges of managing IaC. W
 
 </details>
 
--------------------------------
-
-[⏮️](/Objective%208/hcl-features.md) Objective 8
-
-[🔙](/README.md) README
-
 ## Hashicorp Resources
 
 - The exam will be on Terraform 0.12.0 and higher.
@@ -1225,3 +1160,31 @@ The Terraform CLI focuses on solving the technical challenges of managing IaC. W
 - [Lab Tutorials](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/aws-get-started)
 - [Terraform Feature Table](/tf-feature-table.pdf)
 - [Terraform Registry](https://registry.terraform.io/)
+
+## Tutorials
+
+- [ ] [Introduction to IaC with Terraform](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/certification-associate-tutorials)
+- [ ] [Installing Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/certification-associate-tutorials)
+- [ ] [Lock and Upgrade Provider Versions](https://learn.hashicorp.com/tutorials/terraform/provider-versioning?in=terraform/certification-associate-tutorials)
+- [ ] [Build Infrastructure](https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/certification-associate-tutorials)
+- [ ] [Destroy Infrastructure](https://learn.hashicorp.com/tutorials/terraform/aws-destroy?in=terraform/certification-associate-tutorials)
+- [ ] [Store Remote State](https://learn.hashicorp.com/tutorials/terraform/aws-remote?in=terraform/certification-associate-tutorials)
+- [ ] [Terraform Cloud CLI](https://learn.hashicorp.com/tutorials/terraform/cloud-login?in=terraform/certification-associate-tutorials)
+- [ ] [Migrate State to Terraform Cloud](https://learn.hashicorp.com/tutorials/terraform/cloud-migrate?in=terraform/certification-associate-tutorials)
+- [ ] [Customize Terraform Configuration with Vars](https://learn.hashicorp.com/tutorials/terraform/variables?in=terraform/certification-associate-tutorials)
+- [ ] [Output Data from Terraform](https://learn.hashicorp.com/tutorials/terraform/outputs?in=terraform/certification-associate-tutorials)
+- [ ] [Query Data Sources](https://learn.hashicorp.com/tutorials/terraform/data-sources?in=terraform/certification-associate-tutorials)
+- [ ] [Create Resource Dependencies](https://learn.hashicorp.com/tutorials/terraform/dependencies?in=terraform/certification-associate-tutorials)
+- [ ] [Perform Dynamic Operations with Functions](https://learn.hashicorp.com/tutorials/terraform/functions?in=terraform/certification-associate-tutorials)
+- [ ] [Manage Resources in Terraform State](https://learn.hashicorp.com/tutorials/terraform/state-cli?in=terraform/certification-associate-tutorials)
+- [ ] [Import Terraform Configuration](https://learn.hashicorp.com/tutorials/terraform/state-import?in=terraform/certification-associate-tutorials)
+- [ ] [Manage Resource Drift](https://learn.hashicorp.com/tutorials/terraform/resource-drift?in=terraform/certification-associate-tutorials)
+- [ ] [Use Refresh-Only Mode to Sync Terraform State](https://learn.hashicorp.com/tutorials/terraform/refresh?in=terraform/certification-associate-tutorials)
+- [ ] [Troubleshooting Terraform](https://learn.hashicorp.com/tutorials/terraform/troubleshooting-workflow?in=terraform/certification-associate-tutorials)
+- [ ] [Modules Overview](https://learn.hashicorp.com/tutorials/terraform/module?in=terraform/certification-associate-tutorials)
+- [ ] [Use Modules from the Registry](https://learn.hashicorp.com/tutorials/terraform/module-use?in=terraform/certification-associate-tutorials)
+- [ ] [Host a Static Website with S3 and Cloudflare](https://learn.hashicorp.com/tutorials/terraform/cloudflare-static-website?in=terraform/certification-associate-tutorials)
+- [ ] [Provision Infrastructure with Cloud-Init](https://learn.hashicorp.com/tutorials/terraform/cloud-init?in=terraform/certification-associate-tutorials)
+- [ ] [Provision Infrastructure with Packer](https://learn.hashicorp.com/tutorials/terraform/packer?in=terraform/certification-associate-tutorials)
+- [ ] [Install the Sentinel CLI](https://learn.hashicorp.com/tutorials/terraform/sentinel-install?in=terraform/certification-associate-tutorials)
+- [ ] [Inject Secrets into Terraform Using the Vault Provider](https://learn.hashicorp.com/tutorials/terraform/secrets-vault?in=terraform/certification-associate-tutorials)
